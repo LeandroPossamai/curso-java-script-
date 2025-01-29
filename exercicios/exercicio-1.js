@@ -7,3 +7,6 @@ console.log(4 <= 2 || "leandro" == "jorge");
 console.log(!(3 == 3));
 
 console.log(3 - 3);
+
+let isActive = true;
+console.log(isActive);
