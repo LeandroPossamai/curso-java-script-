@@ -1,3 +1,3 @@
-console.log("Exercício 1");
-console.log("Olá, mundo!");
-console.log(`bom dia!`);
+console.log(1 > 5);
+console.log(4 <= 10);
+console.log(10 != 7);
