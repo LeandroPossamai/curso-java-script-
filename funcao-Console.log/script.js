@@ -1,4 +1,5 @@
-let idade = 21;
-let nome = "leandro";
+let idade = 10;
 
-console.log(`O ${nome} tem ${idade} anos`);
+if (idade == 19) {
+  console.log("pode entrar");
+}
