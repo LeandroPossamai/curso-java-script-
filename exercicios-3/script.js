@@ -1,7 +1,11 @@
-let velocidade = 110;
+let idade = 18;
+let cnh = false;
 
-if (velocidade > 100) {
-  console.log("voce foi multado");
-} else if (velocidade <= 100) {
-  console.log("voce nao foi multado");
+if (idade >= 18 && cnh == true) {
+  console.log("voce pode dirigir");
+} else if (idade >= 18 && cnh == false) {
+  console.log("voce nao pode dirigir");
+} else {
+  idade <= 18 && cnh == false;
+  console.log("voce vai ficar 1 ano sem dirigir");
 }
