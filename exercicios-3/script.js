@@ -1,5 +1,7 @@
-const nome = "leandro";
+let velocidade = 110;
 
-if (nome === "leandro") {
-  console.log(`Bem vindo ${nome}`);
+if (velocidade > 100) {
+  console.log("voce foi multado");
+} else if (velocidade <= 100) {
+  console.log("voce nao foi multado");
 }
